@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+import AboutMe from "../components/AboutMe.vue";
+import Experience from "../components/Experience.vue";
+import Projects from "../components/Projects.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <AboutMe />
+    <Experience />
+    <Projects />
   </main>
 </template>

@@ -1,5 +1,5 @@
 {
-  "name": "vue-project",
+  "name": "personal-portfolio-website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.6"
+    "@vitejs/plugin-vue": "^4.3.1",
+    "vite": "^4.4.9"
   }
 }
