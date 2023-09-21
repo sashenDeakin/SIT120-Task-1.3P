@@ -10,7 +10,6 @@ defineProps({
       <span v-if="isShow">Let's See My Work</span>
       <h3 v-if="isShow">MY PROJECTS</h3>
     </div>
-
     <ul class="portfolio-filter">
       <li class="list portfolio-filter-active" data-filter="all">All</li>
       <li class="list" data-filter="app">Application</li>
@@ -18,10 +17,7 @@ defineProps({
       <li class="list" data-filter="web">Website Designs</li>
       <li class="list" data-filter="ai">AI</li>
     </ul>
-
     <div class="portfolio-container">
-      <!--2------------>
-      <!--1------------>
       <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
         <img
           alt=""
@@ -36,8 +32,6 @@ defineProps({
           <button class="ui-button">Source Code</button>
         </div>
       </a>
-      <!--2------------>
-      <!--1------------>
       <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
         <img
           alt=""
@@ -52,8 +46,6 @@ defineProps({
           <button class="ui-button">Source Code</button>
         </div>
       </a>
-      <!--2------------>
-      <!--1------------>
       <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
         <img
           alt=""
@@ -68,8 +60,6 @@ defineProps({
           <button class="ui-button">Source Code</button>
         </div>
       </a>
-      <!--2------------>
-      <!--1------------>
       <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
         <img
           alt=""
@@ -84,8 +74,6 @@ defineProps({
           <button class="ui-button">Source Code</button>
         </div>
       </a>
-      <!--2------------>
-      <!--1------------>
       <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
         <img
           alt=""
@@ -114,7 +102,6 @@ defineProps({
           <button class="ui-button">Source Code</button>
         </div>
       </a>
-      <!--2------------>
     </div>
   </section>
 </template>
