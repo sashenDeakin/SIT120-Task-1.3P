@@ -1,250 +1,253 @@
 <script setup></script>
+
 <template>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="https://cdn.sanity.io/images/5mm9u6u8/production/0578c0a17e8a223a1aec2e79695df7bd786c2f21-800x800.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="https://cdn.sanity.io/images/5mm9u6u8/production/0578c0a17e8a223a1aec2e79695df7bd786c2f21-800x800.png"
-              alt="Project 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="https://cdn.sanity.io/images/5mm9u6u8/production/0578c0a17e8a223a1aec2e79695df7bd786c2f21-800x800.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="https://cdn.sanity.io/images/5mm9u6u8/production/0578c0a17e8a223a1aec2e79695df7bd786c2f21-800x800.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-      </div>
+  <section id="project">
+    <div class="project-heading">
+      <span>Let's See My Work</span>
+      <h3>MY PROJECTS</h3>
     </div>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-    />
+
+    <ul class="portfolio-filter">
+      <li class="list portfolio-filter-active" data-filter="all">All</li>
+      <li class="list" data-filter="app">Application</li>
+      <li class="list" data-filter="appdesign">App Design</li>
+      <li class="list" data-filter="web">Website Designs</li>
+      <li class="list" data-filter="ai">AI</li>
+    </ul>
+
+    <div class="portfolio-container">
+      <!--2------------>
+      <!--1------------>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://camo.githubusercontent.com/4526dcc3ded0ed06b6274a47f7161b463af0391019dcbd168f809b3052e4f171/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f73636c2f66692f6e33386d36736b70686a716b7476787275686564372f356238356561323134373263353034643565326238323537666165392e706e673f726c6b65793d3035746d3138306e74307166786b333568786b39666973703226646c3d30"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Awesome Github Readme Generator
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <!--2------------>
+      <!--1------------>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://cdn.sanity.io/images/5mm9u6u8/production/4d9159a4388e316ecf350db91026683ab5aefb2a-3500x3500.png"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Reddit Clone with REACT.JS
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <!--2------------>
+      <!--1------------>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://cdn.sanity.io/images/5mm9u6u8/production/afd4fe25b3afabfe76e95c0a3d112b4d2a24bc6c-768x768.png"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Instagram Clone with React.JS
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <!--2------------>
+      <!--1------------>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://cdn.sanity.io/images/5mm9u6u8/production/9e4fc5fa01f8b18f8a005fa544ef8c6cceeb5437-1024x1024.png"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Discord 2.0 with REACT.JS
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <!--2------------>
+      <!--1------------>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://cdn.sanity.io/images/5mm9u6u8/production/82badf1c10a2607e2d1d7453740762096f05d576-1600x1200.png"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Airbnb Clone with Next.js 13!
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+        <img
+          alt=""
+          src="https://camo.githubusercontent.com/79ef84c098dbe8924e95c43a95859ceed636c264b2667726c4b5a98cf3a44fdb/68747470733a2f2f6c68352e67677068742e636f6d2f326c3571793453393359777131435a62457562566f664d62533176764679414d4d476f4747623661774f51587362317264395670777145456f4f364b596c596c414d773d77333030"
+          class="demo-img"
+        />
+        <p style="text-align: center; font-weight: 700; font-size: 20px">
+          Photo Sharing Application with REACT.JS!
+        </p>
+        <div class="demo">
+          <button class="ui-button">Demo</button>
+          <button class="ui-button">Source Code</button>
+        </div>
+      </a>
+      <!--2------------>
+    </div>
   </section>
 </template>
 
 <style scoped>
-#projects {
-  position: relative;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
 }
 
-.about-containers,
-.about-details-container {
-  display: grid;
-  
+.demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
 }
 
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  text-align: center;
+a {
+  text-decoration: none;
 }
-
-.experience-details-container {
+ul {
+  list-style: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+#project {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+.project-heading {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.project-heading h3 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project-heading span {
+  color: #f33c3c;
+}
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid rgb(237, 237, 237, 0.6);
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.portfolio-filter li {
+  margin: 10px;
+  padding: 5px 20px;
+  color: #9b9b9b;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+.portfolio-filter-active {
+  background-color: #f0f0f0;
+  color: #272727 !important;
+}
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio-box {
+  width: 330px;
+  padding: 15px;
+  border: 1px solid #eeeeee;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   flex-direction: column;
 }
 
-a,
-.btn {
-  transition: all 300ms ease;
+.portfolio-box img {
+  width: 50%;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
 }
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-}
-
-.project-img {
-  border-radius: 2rem;
-  width: 10%;
-  height: 10%;
-}
-
-.project-title {
-  margin: 1rem;
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
-}
-
-.icon {
+.ui-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   cursor: pointer;
-  height: 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+.ui-button:hover {
+  background-color: #2980b9;
 }
 
-p {
-  color: rgb(85, 85, 85);
+@media (max-width: 740px) {
+  .portfolio-filter {
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .portfolio-filter-active {
+    background-color: #ffffff;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .portfolio-box {
+    width: 80%;
+  }
 }
-.title {
-  font-size: 3rem;
-  text-align: center;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.btn {
-  font-weight: 600;
-  transition: all 300ms ease;
-  padding: 1rem;
-  width: 8rem;
-  border-radius: 2rem;
-}
-
-.btn-color-1,
-.btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
-}
-
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-  background: none;
-}
-
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
-}
-
-.btn-container {
-  gap: 1rem;
-}
-
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-}
-
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
-
-article .icon {
-  cursor: default;
+@media (max-width: 550px) {
+  .project-heading h3 {
+    font-size: 1.8rem;
+  }
 }
 </style>
