@@ -82,7 +82,7 @@ defineProps({
           </div>
         </div>
         <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
+          <h2 class="experience-sub-title">Backend Development</h2>
           <div class="article-container">
             <article>
               <img
