@@ -1,10 +1,14 @@
-<script setup></script>
+<script setup>
+defineProps({
+  isShow: Boolean,
+});
+</script>
 
 <template>
   <section id="project">
     <div class="project-heading">
-      <span>Let's See My Work</span>
-      <h3>MY PROJECTS</h3>
+      <span v-if="isShow">Let's See My Work</span>
+      <h3 v-if="isShow">MY PROJECTS</h3>
     </div>
 
     <ul class="portfolio-filter">

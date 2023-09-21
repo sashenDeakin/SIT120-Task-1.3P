@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
 
 <template>
   <div class="main">
@@ -8,29 +10,26 @@
         class="logo"
       />
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SKILLS</a></li>
-        <li><a href="#">MY WORKS</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li>
+          <a href=""><RouterLink to="/">HOME</RouterLink></a>
+        </li>
+        <li>
+          <a href=""><RouterLink to="/about">ABOUT</RouterLink></a>
+        </li>
+        <li>
+          <a href="#"><RouterLink to="/skill">SKILLS</RouterLink></a>
+        </li>
+        <li>
+          <a href="#"><RouterLink to="/work">MY WORKS</RouterLink></a>
+        </li>
+        <li>
+          <a href="#"><RouterLink to="/contact">CONTACT</RouterLink></a>
+        </li>
       </ul>
     </div>
     <div class="info">
       <h3>Hi, I'm <span>Sashen</span>.</h3>
       <h1><span>W</span>EB <span>D</span>ESIGNER</h1>
-      <!-- <h3
-        style="
-          display: flex;
-          width: 600px;
-          text-align: start;
-          align-items: center;
-        "
-      >
-        I'm Sashen Jayathilaka. currently, I'm an undergraduate at the Deakin
-        University and I'm studying cloud computing. Full Stack React Developer
-        | Javascript, Typescript | Node/Express | MEAN, Blockchain
-      </h3> -->
-
       <div class="icon-list">
         <a href="https://github.com/SashenJayathilaka"
           ><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
@@ -90,7 +89,7 @@
 }
 
 .navbar .logo {
-  width: 160px;
+  width: 100px;
   cursor: pointer;
 
   margin-left: -2%;

@@ -1,9 +1,13 @@
-<script setup></script>
+<script setup>
+defineProps({
+  isShow: Boolean,
+});
+</script>
 
 <template>
   <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
+    <p v-if="isShow" class="section__text__p1">Get To Know More</p>
+    <h1 v-if="isShow" class="title">About Me</h1>
     <div class="section-container">
       <div class="section__pic-container">
         <img
@@ -30,7 +34,7 @@
               class="icon"
             />
             <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            <p>B.Sc. Bachelors Degree<br /></p>
           </div>
         </div>
         <div class="text-container">

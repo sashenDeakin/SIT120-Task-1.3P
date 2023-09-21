@@ -1,14 +1,14 @@
 <script setup>
-import AboutMe from "../components/AboutMe.vue";
-import Header from "../components/Header.vue";
+import Experience from "../components/Experience.vue";
 import Footer from "../components/Footer.vue";
+import Header from "../components/Header.vue";
 import Hero from "../components/Hero.vue";
 </script>
 
 <template>
   <Header />
-  <Hero title="About Me" />
-  <AboutMe />
+  <Hero title="Experience" />
+  <Experience />
   <Footer />
 </template>
 

@@ -1,8 +1,13 @@
-<script setup></script>
+<script setup>
+defineProps({
+  isShow: Boolean,
+});
+</script>
+
 <template>
   <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
+    <p v-if="isShow" class="section__text__p1">Explore My</p>
+    <h1 v-if="isShow" class="title">Experience</h1>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container">

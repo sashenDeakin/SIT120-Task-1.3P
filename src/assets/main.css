@@ -60,6 +60,11 @@ section {
   margin-bottom: 1rem;
 }
 
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
